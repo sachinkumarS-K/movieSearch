@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+::placeholder{
+   font-size: 1.3rem;
+   padding: 20px;
+   text-indent: 30px;
+
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background: #121229;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 23px;
+}
+.searchBox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#inpBox{
+    width: 57%;
+    height: 40px;
+    border-radius: 10px;
+   text-align: center;
+    font-size: 1.5rem;
+    position: relative;
+}
+.movieCont{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 20px;
+}
+.outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.movieCard{
+    background-color: #333375;
+    padding: 1.5267rem;
+    width: 310px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+.imageCont{
+    height: 21rem;
+    width: 13rem;
+}
+.movieImg{
+   width: 100%;
+   height: auto;
+    border-radius: 0.6rem;
+}
+.movieBtn{
+    width: 95%;
+    height: 15%;
+    background-color: #e03350;
+    padding: 0.7rem 1rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    outline: transparent;
+    transition: all 0.3s;
+    margin-bottom: 5px;
+}
+.movieTitle {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.movieBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #e03350;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.logo{
+   margin-left: 10px;
+    width: 20px;
+}
